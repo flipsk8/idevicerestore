@@ -49,8 +49,13 @@ enum {
 	RESTORE_STEP_DETECT = 0,
 	RESTORE_STEP_PREPARE,
 	RESTORE_STEP_UPLOAD_FS,
+<<<<<<< HEAD
 	RESTORE_STEP_VERIFY_FS,
 	RESTORE_STEP_FLASH_FW,
+=======
+	RESTORE_STEP_FLASH_FS,
+	RESTORE_STEP_FLASH_NOR,
+>>>>>>> parent of 53c0a9a... Rename restore step to indicate flashing of firmware instead of NOR
 	RESTORE_STEP_FLASH_BB,
 	RESTORE_NUM_STEPS
 };

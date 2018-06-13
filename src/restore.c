@@ -615,8 +615,13 @@ int restore_handle_progress_msg(struct idevicerestore_client_t* client, plist_t 
 		case VERIFY_RESTORE:
 			idevicerestore_progress(client, RESTORE_STEP_VERIFY_FS, progress / 100.0);
 			break;
+<<<<<<< HEAD
 		case FLASH_FIRMWARE:
 			idevicerestore_progress(client, RESTORE_STEP_FLASH_FW, progress / 100.0);
+=======
+		case 18:
+			idevicerestore_progress(client, RESTORE_STEP_FLASH_NOR, progress / 100.0);
+>>>>>>> parent of 53c0a9a... Rename restore step to indicate flashing of firmware instead of NOR
 			break;
 		case UPDATE_BASEBAND:
 		case UPDATE_IR_MCU_FIRMWARE:
