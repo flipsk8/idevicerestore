@@ -18,3 +18,4 @@ src/idevicerestore
 src/.libs
 src/.deps
 stamp-h1
+src/tss.h

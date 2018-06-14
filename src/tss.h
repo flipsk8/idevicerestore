@@ -39,8 +39,11 @@ plist_t tss_request_new(plist_t overrides);
 int tss_request_add_common_tags(plist_t request, plist_t parameters, plist_t overrides);
 int tss_request_add_ap_tags(plist_t request, plist_t parameters, plist_t overrides);
 int tss_request_add_baseband_tags(plist_t request, plist_t parameters, plist_t overrides);
+<<<<<<< HEAD
 int tss_request_add_se_tags(plist_t request, plist_t parameters, plist_t overrides);
 int tss_request_add_savage_tags(plist_t request, plist_t parameters, plist_t overrides);
+=======
+>>>>>>> parent of 20607e3... tss: Add helper function to create Secure Element TSS request
 
 int tss_request_add_ap_img4_tags(plist_t request, plist_t parameters);
 int tss_request_add_ap_img3_tags(plist_t request, plist_t parameters);
